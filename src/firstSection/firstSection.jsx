@@ -10,7 +10,7 @@ const FirsSection =()=>{
                 <h1 className="title">VISAS TO GO</h1>
                 <p>Es una oficina de consultas y tramites migratorios a estados unidos, de alta integridad y profesionalismo. su lisenciado, isaias grullon, fue sargento de la policia de la ciudad de nueva york, (NYDP), por 20 años. es graduado de john hay college of criminal justic, manhattan NY. Tambien esta certificado, en leyes y tramites migratorios por el US Inmigration institute, Orlando, FL,</p>
                 <button>CONTACTANOS</button>
-               <p className="DTCEN"> DEPOSITA TU CONFIANZA EN NOSOTROS</p>
+               <p className="DTCEN"> DEPOSITA TU CONFIANZA dddEN NOSOTROS</p>
             </div>
             <div className="image">
                 <img src={imageRob} alt="" />
