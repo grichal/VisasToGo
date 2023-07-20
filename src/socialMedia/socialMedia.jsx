@@ -13,6 +13,17 @@ const SocialMedia = () => {
     },
 
   ];
+  const redirectI = (()=>{
+    window.location.href='https://www.instagram.com/visastogord/'
+})
+  const redirectF = (()=>{
+    window.location.href='https://www.facebook.com/profile.php?id=100091582413156'
+})
+  const redirectT = (()=>{
+    alert('coming soon')
+})
+
+
 
   return (
     <div className="cardcontainer-media">
@@ -28,13 +39,13 @@ const SocialMedia = () => {
             </div>
             <div className="cardname-media">{data.name}</div>
             <div className="cardbuttons-media">
-              <button className="buttons-media" id="instagram">
+              <button onClick={redirectI} className="buttons-media" id="instagram">
                 INSTAGRAM
               </button>
-              <button className="buttons-media" id="facebook">
+              <button onClick={redirectF} className="buttons-media" id="facebook">
                 FACEBOOK
               </button>
-              <button className="buttons-media" id="tweeter">
+              <button onclick={redirectT} className="buttons-media" id="tweeter">
                 TWEETER
               </button>
             </div>
