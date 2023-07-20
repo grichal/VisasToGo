@@ -1,0 +1,126 @@
+.cardcontainer-media {
+  background-color: #ffffff;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  background-image:  url(https://wallpaperaccess.com/full/3200191.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.titulo{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.cardcontent {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-media {
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 400px;
+  margin-top: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+
+.cardimage-media img {
+  height: 90px;
+  border-radius: 15px;
+  border: 6px solid white;
+  margin-top: -40px;
+}
+
+.cardimage-media {
+  display: flex;
+  justify-content: center;
+}
+
+.cardname-media {
+  font-family: "Poppins";
+  text-align: center;
+  color: #3f7e78;
+  margin-top: 5px;
+}
+
+.cardbuttons-media {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.buttons-media {
+  margin: 5px;
+  border-style: none;
+  padding: 10px;
+}
+
+#instagram {
+  background-image: linear-gradient(
+    to right top,
+    #527fd4,
+    #647ad8,
+    #7873d9,
+    #8d6bd7,
+    #a261d3,
+    #c659c6,
+    #e353b5,
+    #f951a1,
+    #ff6883,
+    #ff886c,
+    #ffaa5e,
+    #ffca62
+  );
+  color: white;
+  font-family: "Poppins";
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#instagram:hover {
+  padding: 12px;
+}
+
+#facebook {
+  background-color: blue;
+  color: white;
+  font-family: "Poppins";
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#facebook:hover {
+  padding: 12px;
+}
+
+#tweeter {
+  background-color: #1da1f2;
+  color: white;
+  font-family: "Poppins";
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#tweeter:hover {
+  padding: 12px;
+}
