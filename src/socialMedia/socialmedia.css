@@ -7,13 +7,16 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 60px;
-  background-image:  url(https://wallpaperaccess.com/full/3200191.jpg);
+  background-image:  url(https://triptins.com/wp-content/uploads/2023/02/Things-To-Do-in-NYC-at-Night.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 
+.cardimage-media img{
+  background-color: rgb(228, 228, 228);
+}
 .titulo{
   color: #ffffff;
   font-family: 'Poppins', sans-serif;

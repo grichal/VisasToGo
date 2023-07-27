@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import "./socialmedia.css";
+import img from '../assets/image.png'
 
 const SocialMedia = () => {
   const data = [
     {
-      name: "@RobertoGrullon",
+      name: "@visastogord",
       cardImage:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
-      instagram: "",
-      facebook: "",
-      tweeter: "",
+        img,
     },
 
   ];
@@ -19,11 +17,9 @@ const SocialMedia = () => {
   const redirectF = (()=>{
     window.location.href='https://www.facebook.com/profile.php?id=100091582413156'
 })
-  const redirectT = (()=>{
-    alert('coming soon')
-})
-
-
+//   const redirectT = (()=>{
+//     alert('coming soon')
+// })
 
   return (
     <div className="cardcontainer-media">
@@ -45,9 +41,9 @@ const SocialMedia = () => {
               <button onClick={redirectF} className="buttons-media" id="facebook">
                 FACEBOOK
               </button>
-              <button onclick={redirectT} className="buttons-media" id="tweeter">
+              {/* <button onclick={redirectT} className="buttons-media" id="tweeter">
                 TWEETER
-              </button>
+              </button> */}
             </div>
           </div>
         );

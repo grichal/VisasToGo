@@ -15,7 +15,7 @@ const Services = () => {
         {
             servicio:'Peticiones familiares(residencia)',
             description:'I-130 Y LOS 6 PASOS',
-            img:'https://img.europapress.es/fotoweb/fotonoticia_20161118105147_1200.jpg'
+            img:'https://s.yimg.com/ny/api/res/1.2/3PHYGR57R6ZE8amU4BMNPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-09/050942b0-37d8-11ed-a6be-0bd8932284a9'
         },
         {
           servicio:"Visas de turista y negocios",
@@ -34,13 +34,14 @@ const Services = () => {
         },
         {
           servicio:"Solicitud de evidencia",
-          description:'',
-          img:'https://media.istockphoto.com/id/1127585195/es/foto/hombre-y-su-peque%C3%B1o-hijo-encantador-admiran-las-vistas-de-central-park-nueva-york.jpg?s=612x612&w=0&k=20&c=6silx5eMpwHweyxjJmnbZtcq096caIKy6FLFwlZhglo='
+          description:'Request for evidence',
+          img:'https://www.auditool.org/images/images/Fotolia_81731372_S4.jpg'
         
         }
     ]
   return (
     <>
+    <div className="servicesContainer">
     <h1 className="ourservices">NUESTROS SERVICIOS</h1>
     <section className="services">
             {serviceContent.map((data,index)=>(
@@ -62,6 +63,7 @@ const Services = () => {
         </div>
             ))}
     </section>
+    </div>
     </>
   );
 };
