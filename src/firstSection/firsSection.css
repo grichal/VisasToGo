@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 
 .firstsection {
   display: flex;
@@ -8,19 +8,19 @@
   flex-wrap: wrap;
 }
 
-.firstDescription{
-margin-top: -50px;
+.firstDescription {
+  margin-top: -50px;
 }
 
 .firstsection p {
-    color: #3f7e78;
-    width: 500px;
-    font-size: 18px;
-  }
+  color: #3f7e78;
+  width: 500px;
+  font-size: 18px;
+}
 
-.image img{
-    width: 700px;
-    filter: drop-shadow(0 0 0.3rem #000000);
+.image img {
+  width: 700px;
+  filter: drop-shadow(0 0 0.3rem #000000);
 }
 
 .desc {
@@ -33,22 +33,22 @@ margin-top: -50px;
   font-weight: bold;
 }
 
-.desc button{
-    width: fit-content;
-    padding: 15px;
-    border-style: none;
-    color: white;
-    background-color: #3f7e78;
-    border-radius: 8px;
-    font-family: 'Poppins';
-    transition: all 0.3s;
+.desc button {
+  width: fit-content;
+  padding: 15px;
+  border-style: none;
+  color: white;
+  background-color: #3f7e78;
+  border-radius: 8px;
+  font-family: "Poppins";
+  transition: all 0.3s;
 }
 
-.desc button:hover{
-    cursor: pointer;
-    color: #3f7e78;
-    background-color: #edf6f9;
-    transition: all 0.3s;
+.desc button:hover {
+  cursor: pointer;
+  color: #3f7e78;
+  background-color: #edf6f9;
+  transition: all 0.3s;
 }
 
 .title {
@@ -65,7 +65,6 @@ margin-top: -50px;
   font-size: 25px;
 }
 
-
-.DTCEN{
-    font-family: 'Poppins';
+.DTCEN {
+  font-family: "Poppins";
 }
