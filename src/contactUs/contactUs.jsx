@@ -5,7 +5,8 @@ import "./contactUs.css";
 const ContactUs = () => {
 
   const redirectPhone = ()=>{
-    window.location.href = `tel:${8299593082}`
+    window.location.href = `tel:${8093652011}`
+    
   }
 
   return (
