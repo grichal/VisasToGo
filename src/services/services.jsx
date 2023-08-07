@@ -13,7 +13,7 @@ const Services = () => {
             img:'https://www.aycelaborytax.com/wp-content/uploads/2019/09/contratar-asesor-fiscal-600x400-1.png'
         },
         {
-            servicio:'Peticiones familiares(residencia)',
+            servicio:'Peticiones familiares (residencia)',
             description:'I-130 Y LOS 6 PASOS',
             img:'https://s.yimg.com/ny/api/res/1.2/3PHYGR57R6ZE8amU4BMNPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-09/050942b0-37d8-11ed-a6be-0bd8932284a9'
         },
@@ -23,7 +23,7 @@ const Services = () => {
           img:'https://static01.nyt.com/images/2017/03/01/nyregion/01TOURISM1/01TOURISM1-articleLarge.jpg?quality=75&auto=webp&disable=upscale'
         },
         {
-          servicio:"Visa de prometida(o)",
+          servicio:"Visa de prometida (o)",
           description:"K1",
           img:'https://www.nyhabitat.com/sp/blog/wp-content/uploads/2020/02/escapada-nueva-york-san-valentin-apartamentos-romanticos-puente-brooklyn-pareja.jpg'
         },
