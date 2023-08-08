@@ -24,7 +24,7 @@ const SocialMedia = () => {
   return (
     <div className="cardcontainer-media">
       <div className="titulo">
-        <h1 className="titulo">REDES SCIALES</h1>
+        <h1 className="titulo">REDES SOCIALES</h1>
       </div>
       <div className="cardcontent">
       {data.map((data, index) => {
